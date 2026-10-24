@@ -1,0 +1,17 @@
+# Local credentials and generated runtime data
+.env
+.env.*
+!*.env.example
+logs/
+reports/
+backend/__pycache__/
+unity/VR Fatigue Analytics/Library/
+unity/VR Fatigue Analytics/Temp/
+unity/VR Fatigue Analytics/Build/
+unity/VR Fatigue Analytics/obj/
+unity/VR Fatigue Analytics/Logs/
+unity/VR Fatigue Analytics/UserSettings/
+unity/VR Fatigue Analytics/prototype-*.png
+docs/cortex-api-master.md
+docs/api_*.md
+docs/cortex_example.py
