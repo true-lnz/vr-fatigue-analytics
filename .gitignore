@@ -15,3 +15,10 @@ unity/VR Fatigue Analytics/prototype-*.png
 docs/cortex-api-master.md
 docs/api_*.md
 docs/cortex_example.py
+# Generated Unity/editor artifacts
+unity/VR
+unity-cli-test.log
+unity/VR Fatigue Analytics/.vs/
+unity/VR Fatigue Analytics/*.csproj
+unity/VR Fatigue Analytics/*.sln
+docs/session_s-0a
