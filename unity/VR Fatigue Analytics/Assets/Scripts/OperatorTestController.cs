@@ -54,6 +54,8 @@ public class OperatorTestController : MonoBehaviour
 
     void Start()
     {
+        if (GetComponent<CrosshairOverlay>() == null)
+            gameObject.AddComponent<CrosshairOverlay>();
         statusText.text = "Наблюдайте за тревогой и нажимайте подсвеченное действие.";
         if (connectionText != null) connectionText.text = "● СЕРВЕР: ПРОВЕРКА    ● CORTEX: ОЖИДАНИЕ";
         timerText.text = "60.0 с";
